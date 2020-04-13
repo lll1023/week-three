@@ -147,6 +147,7 @@ int main(){
                                     	printf("请输入char型变量值:\n");
                                           scanf("%s",input);
                         }
+                                    charChoice=input[0];
                                     EnAQueue(&Q,&charChoice); 
                     }else if(choice==3){
 	                                printf("请输入float型入队元素值:\n");
